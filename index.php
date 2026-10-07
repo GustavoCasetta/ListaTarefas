@@ -22,7 +22,7 @@ limparTela();
 
 switch($opcao){
     case 1:
-        [$listaTarefas, $tarefasConcluidas, $tarefasRemovidas] = verLista($listaTarefas, $tarefasConcluidas, $tarefasRemovidas);
+        verLista($listaTarefas, $tarefasConcluidas, $tarefasRemovidas);
     break;
     case 2:
         $listaTarefas = adicionarTarefa($listaTarefas);
